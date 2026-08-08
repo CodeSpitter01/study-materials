@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: kapoor-writes.github.io
+  baseUrl: CodeSpitter01.github.io/study-materials
   ignorePatterns:
     - private
     - templates
